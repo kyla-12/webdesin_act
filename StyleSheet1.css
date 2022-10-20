@@ -1,0 +1,459 @@
+body{
+background-image:url(logO/FB_IMG_1664950382755.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment: fixed;
+}
+
+span{
+    color:rgb(3, 107, 88);
+}
+
+.navi{
+    width: 1270px;
+    height: 88px;
+    border: 1px solid rgb(99, 99, 99);
+    padding: 5px;
+    background-image: url(logo/Dh8Wlmj.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align:left;
+    margin-left: 55px;   
+}
+div>nav{
+    background-color: bisque;
+}
+.navig{
+    float: right; 
+    margin-top:50px; 
+    margin-right: 50px; 
+    font-size:22px; 
+    word-spacing: 20px;
+}
+a:visited{
+    color:black
+}
+
+a:link{
+    color:rgb(160, 160, 104);
+    text-decoration: double;
+}
+
+.box {
+    width: 1000px;
+    height:350px;
+    border: 10px solid rgb(196, 196, 163);
+    border-style: ridge;
+    padding: 25px;
+    background-size:cover;
+    background-position:-0px;
+    font-family: Bahnschrift;
+    white-space: normal;
+    margin-top: 70px;
+    margin-left:150px;
+}
+
+.img{
+    position: relative; 
+    margin: 20px; 
+    opacity: 0.90; 
+    border-style:ridge;
+    top: -75px;
+}
+
+h3::first-letter{
+font-size:xx-large;
+font-style:initial;
+}
+
+.divbox{
+    position:relative; 
+    top: -385px;
+    width: 680px; 
+    height:200;  
+    margin-left: 300px; 
+    background-color: rgb(204, 228, 174); 
+    padding:10px; 
+    border: 2px solid rgb(15, 15, 13); 
+    opacity: 0.75px;
+}
+
+.pbox{
+    position:relative; 
+    color:rgb(7, 7, 7); 
+    font-size:medium; 
+    top: -50px; 
+    margin-left: 20px;
+}
+.pboxx{
+    position:relative; 
+    top:-60px; 
+    margin-left:40px; 
+    font-size:small;
+}
+footer{
+    position:absolute;
+    left:0;
+    width:97%;
+    bottom:-700px;
+    height: 30px;
+    padding:20px;
+    background-image: url(logo/Dh8Wlmj.jpg);
+    background-position: top;
+    background-size: cover;
+    font-family: Bahnschrift;
+    font-size: small; 
+}
+
+.im{
+    position:relative;
+    margin-left: 175px;
+    top: -40px;
+}
+
+
+.stats{
+    margin: 70px; 
+    text-align: center; 
+    background-color: black; 
+    opacity:0.75
+}
+table::after{
+    content: attr(nav);
+    text-align: center;
+    margin: 10px;
+}
+div thead{
+    background-color: rgb(212, 143, 58);
+}
+div tbody{
+    background-color: rgb(221, 185, 142);
+ }
+
+
+
+.regform{
+    margin-left: 180px;
+    margin-right: 780px;
+    color: rgb(15, 15, 15);
+}
+.firstname{
+    position:relative;
+    left:60px;
+    font-size: 13px;
+    height: 25px;
+    width: 230px;
+}
+.firstlabel{
+    position: relative;
+    color:black;
+    font-size: 14px;
+    left: 60px;
+    color: rgb(208, 255, 237);
+}
+.middlename{
+    position:relative;
+    left:300px;
+    top:-24px;
+    font-size: 13px;
+    height: 25px;
+    width: 230px;
+}
+.middlelabel{
+    position: relative;
+    color: rgb(208, 255, 237);
+    font-size: 14px;
+    left: 370px;
+    top:-25px;
+}
+.lastname{
+    position:relative;
+    left:600px;
+    top:-50px;
+    font-size: 13px;
+    height: 25px;
+    width: 230px;
+}
+.lastlabel{
+    position: relative;
+    color: rgb(208, 255, 237);
+    font-size: 14px;
+    left: 685px;
+    top:-45px;
+}
+.monthlabel{
+    position: relative;
+    color: rgb(208, 255, 237);
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 60px;
+    bottom: -20px;
+}
+.monthoption{
+    position: relative;
+    left:18px;
+    font-size: 13px;
+    height: 25px;
+}
+.daylabel{
+    position: relative;
+    color: rgb(208, 255, 237);
+    font-size: 14px;
+    left: 110px;
+    bottom: -20px;
+}
+.dayoption{
+    position:relative;
+    left:80px;
+    width: 80px;
+    font-size: 13px;
+    height: 25px;
+}
+.yearlabel{
+    position: relative;
+    color: rgb(208, 255, 237);
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 180px;
+    bottom: -20px;
+}
+.yearoption{
+    position:relative;
+    width: 80px;
+    left:150px;
+    font-size: 13px;
+    height: 25px;  
+}
+.genderlabel{
+    position: relative;
+    color: rgb(13, 14, 13);
+    font-size: 16px;
+    left: 650px;
+    top: -80px;
+}
+.genderoption{
+    position:relative;
+    left:700px;
+    width: 200px;
+    margin-top: 10px;
+    top:-90px;
+    margin-bottom: -50px;
+    font-size: 13px;
+    height: 25px;
+}
+.streetaddress{
+    position: relative;
+    left:60px;
+    width: 850px;
+    font-size: 13px;
+    height: 25px;  
+}
+.streetaddresslabel{
+    position: relative;
+    color: rgb(208, 255, 237);
+    font-size: 14px;
+    left: 60px;
+}
+.streetaddressline2{
+    position: relative;
+    left:60px;
+    width: 850px;
+    margin-top: 40px;
+    font-size: 13px;
+    height: 25px;
+}
+.streetaddressline2label{
+    position: relative;
+    color: rgb(208, 255, 237);
+    left:60px;
+    margin-top: 40px;
+}
+.city{
+    position: relative;
+    width:300px;
+    margin-top: 40px;
+    font-size: 13px;
+    height: 25px;
+}
+.citylabel{
+    position: relative;
+    color: rgb(208, 255, 237);
+    margin-right: 55px;
+}
+.state{
+    position:relative;
+    left:550px;
+    top:-70px;
+    width: 300px;
+    margin-top: 25px;
+    font-size: 13px;
+    height: 25px;
+}
+.statelabel{
+    position:relative;
+    color: rgb(208, 255, 237);
+    left:550px;
+    top:-70px;
+}
+.portal{
+    position:relative;
+    top:-20px;
+    width: 850px;
+    margin-top: 15px;
+    font-size: 13px;
+    height: 25px;
+}
+.portallabel{
+    position: relative;
+    color: rgb(208, 255, 237);
+    top:-20px
+}
+.namestudent{
+    margin-left: 10px;
+}
+.studentemail{
+    position:relative;
+    left:60px;
+    top:-20px;
+    width: 350px;
+    margin-top: 15px;
+    font-size: 13px;
+    height: 25px;
+}
+.studentemaillabel{
+    position: relative;
+    left:60px;
+    color: rgb(208, 255, 237);
+    top:-20px
+}
+.mobilenumber{
+    position:relative;
+    left:565px;
+    width: 350px;
+    margin-top: 10px;
+    top:-135px;
+    font-size: 13px;
+    height: 25px;
+}
+.mobile_number{
+  position: relative;
+  color: rgb(208, 255, 237);
+    width: 350px;
+    left: 500px;
+    top: -120px;
+}
+.phonenumber{
+    position:relative;
+    left:60px;
+    top:-100px;
+    width: 350;
+    font-size: 13px;
+    height: 25px;
+}
+.namephone{
+    position: relative;
+    color: rgb(208, 255, 237);
+    top:-90px
+}
+.worknumber{
+    position:relative;
+    width: 350px;
+    top:-185px;
+    left: 565px;
+    font-size: 13px;
+    height: 25px;
+}
+.nameworknumber{
+  position: relative;
+  color: rgb(208, 255, 237);
+    left: 500px;
+    top: -180px;
+}
+.company{
+    position:relative;
+    left:60px;
+    width: 350px;
+    margin-top: -160px;
+    font-size: 13px;
+    height: 25px;
+}
+.namecompany{
+    position:relative;
+    top:-155px;
+}
+.namecourses{
+    position:relative;
+    top:-115px;
+}
+.courses{
+    position:relative;
+    left:60px;
+    top:-130px;
+    width: 350px;
+    font-size: 13px;
+    height: 25px;
+}
+.additionalcomments{
+    position:relative;
+    top:-90px;
+}
+.additionalcommentss{
+    position: relative;
+    left:60px;
+    width: 850px;
+    padding: 10px;
+    font-size: 13px;
+    height:200px;
+    top: -95px;
+}
+input[value="Submit Application"]{
+    position:relative; 
+    top: -55px; 
+    height: 30px;
+    background-color: peru;
+    color: aliceblue;
+}
+
+input[value="Clear Fields"]{
+    position: relative; 
+    margin-left: 850px; 
+    top: -80px;
+    height: 30px;
+     background-color:peru;
+      color: aliceblue;
+}
+
+
+fieldset{
+    width: 800px;
+    margin-left: 225px; 
+    margin-top: 50px;
+    background-color:rgb(248, 244, 204); 
+}
+legend{
+    font-size:larger; 
+    font-weight: bolder; 
+    background-color: rgb(248, 211, 156);
+}
+ 
+input[value="Submit"]{
+    position:relative; 
+    margin-left:430px;
+    background-color:rgb(248, 183, 117);
+     bottom: -115px;
+     height: 30px;
+      color: rgb(12, 12, 12); 
+      width: 100px;
+}
+ .progress{
+    margin-left:320px;
+    margin-top:-112px;
+    width:20em;
+ }
+ meter{
+    appearance:auto;
+    margin-top:11em;
+    height: 30px;
+    width:20em;
+ }
